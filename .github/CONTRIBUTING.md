@@ -1,3 +1,7 @@
+# Issue Guidelines
+
+For creating issues, please first ensure that the bug/issue was not already reported by searching under our issues page. If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a title and clear description, as much relevant information as possible. Following the template for bug reports helps.
+
 # Pull Request Guidelines
 
 This section outlines the guidelines that should be imposed upon pull requests at Team Fortress Source 2.

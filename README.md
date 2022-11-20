@@ -11,7 +11,6 @@ This part aims to guide developers with installing and setting up the addon for 
 
 - Navigate to your s&box installation directory. For example, on Windows this would be the ``Steam/steamapps/common/sbox/`` folder.
 - Go into the ``addons`` folder and clone the repository.
-- Rename the folder that git created from ``TF-Source-2`` to ``tfs2``. This is crucial because the addon ident must match the repository folder.
 - Initialize submodules. We use our [s&box FPS SDK](https://github.com/AmperSoftware/sbox-FPS-SDK) as the core of the gamemode. If you have cloned the repository using a GUI client such as GitHub Desktop the submodule should have been initialized automatically. If not, navigate to the repository folder and run: ``git submodule update --init --recursive``. You can then navigate to the ``code/Libraries/Source1`` folder and verify that it contains content.
 - Run the developer version of s&box (sbox-dev.exe). Once loaded, add the addon using the Addon Manager widget (Add -> Add From Disk) by selecting the ``.addon`` file and verify that it is active and enabled by hovering over the checkmark icon.
 
@@ -19,8 +18,8 @@ Congrats! Your local version of TFS2 is ready to be played and modified.
 If you encounter any issues during installation or the overall setup process you can contact us on our [Discord](https://discord.gg/tMnTsUsVjP).
 
 # Launching & Updating
-
-You can launch the gamemode by either using the in-game gamemode browser or by using the console. If you want to use the console, run the following commands:
+An easy way to launch the game mode is by using [launch configs](https://media.discordapp.net/attachments/712252851283296260/1043964479613976727/image.png).  
+You can also launch the gamemode by either using the in-game gamemode browser or by using the console. If you want to use the console, run the following commands:
 ```
 gamemode local.tfs2
 map mapname
@@ -33,7 +32,7 @@ Sometimes s&box decides to recompile the assets and change the compiled files, t
 # Contributing
 
 Interested in fixing a bug or implementing a feature? Whether it's a major change or a small hotfix, you are welcome to submit it through a pull request! But before that happens you must follow:
-- [The Pull Request Guidelines](https://github.com/AmperSoftware/TF-Source-2/blob/main/.github/PULL_REQUEST_GUIDELINES.md)
+- [The Pull Request Guidelines](https://github.com/AmperSoftware/TF-Source-2/blob/main/.github/CONTRIBUTING.md)
 - [The Pull Request Template](https://github.com/AmperSoftware/TF-Source-2/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 As long as you abide by these guidelines, you can submit a pull request and an Amper developer will try to review it as soon as possible.  
