@@ -1,0 +1,3 @@
+[submodule "code/Libraries/Source1"]
+	path = code/Libraries/Source1
+	url = https://github.com/AmperSoftware/Sbox-Source1-Base.git
